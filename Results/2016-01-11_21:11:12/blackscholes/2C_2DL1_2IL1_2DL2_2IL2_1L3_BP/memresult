@@ -1,0 +1,14 @@
+2C_2DL1_2IL1_2DL2_2IL2_1L3_BP, blackscholes
+
+mod-l1-0: Sets = 64.0, HitRatio = 0.9975, 
+mod-l1-2: Sets = 64.0, HitRatio = 0.0, 
+mod-l1-1: Sets = 64.0, HitRatio = 0.9887, 
+mod-l1-3: Sets = 64.0, HitRatio = 0.0, 
+mod-l2-0: Sets = 512.0, HitRatio = 0.03475, 
+mod-l2-2: Sets = 512.0, HitRatio = 0.0, 
+mod-l2-1: Sets = 512.0, HitRatio = 0.2661, 
+mod-l2-3: Sets = 512.0, HitRatio = 0.0, 
+mod-l3-0: Sets = 8192.0, HitRatio = 0.007937, 
+mod-mm: Sets = 128.0, HitRatio = 0.6598, 
+
+Warning: Could not locate all properties!

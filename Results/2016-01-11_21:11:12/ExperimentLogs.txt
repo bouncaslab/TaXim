@@ -1,0 +1,210 @@
+
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: pvGrD
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: pvGrE
+
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: pvGx0
+
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: pvGwG
+
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: pvGRg
+
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: pvGvn
+
+PARSEC Benchmark Suite Version 2.1
+PARSEC Benchmark Suite Version 2.1
+PARSEC Benchmark Suite Version 2.1
+PARSEC Benchmark Suite Version 2.1
+PARSEC Benchmark Suite Version 2.1
+PARSEC Benchmark Suite Version 2.1
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 1.03 [s]
+SimEnd = MaxTime
+SimTime = 393249.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 393250
+
+[ x86 ]
+RealTime = 1.02 [s]
+Instructions = 378852
+InstructionsPerSecond = 370260
+Contexts = 1
+Memory = 9302016
+FastForwardInstructions = 0
+CommittedInstructions = 181821
+CommittedInstructionsPerCycle = 0.4624
+CommittedMicroInstructions = 306551
+CommittedMicroInstructionsPerCycle = 0.7796
+BranchPredictionAccuracy = 0.896
+SimTime = 393216.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 393216
+CyclesPerSecond = 384295
+
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 1.04 [s]
+SimEnd = MaxTime
+SimTime = 524295.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 524296
+
+[ x86 ]
+RealTime = 1.04 [s]
+Instructions = 421392
+InstructionsPerSecond = 405450
+Contexts = 1
+Memory = 9302016
+FastForwardInstructions = 0
+CommittedInstructions = 228469
+CommittedInstructionsPerCycle = 0.4358
+CommittedMicroInstructions = 385315
+CommittedMicroInstructionsPerCycle = 0.7349
+BranchPredictionAccuracy = 0.9027
+SimTime = 524288.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 524288
+CyclesPerSecond = 504450
+
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 1.04 [s]
+SimEnd = MaxTime
+SimTime = 786482.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 786483
+
+[ x86 ]
+RealTime = 1.04 [s]
+Instructions = 649409
+InstructionsPerSecond = 623471
+Contexts = 1
+Memory = 9302016
+FastForwardInstructions = 0
+CommittedInstructions = 361262
+CommittedInstructionsPerCycle = 0.4594
+CommittedMicroInstructions = 609497
+CommittedMicroInstructionsPerCycle = 0.775
+BranchPredictionAccuracy = 0.9083
+SimTime = 786432.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 786432
+CyclesPerSecond = 755016
+
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 1.13 [s]
+SimEnd = MaxTime
+SimTime = 524321.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 524322
+
+[ x86 ]
+RealTime = 1.13 [s]
+Instructions = 397684
+InstructionsPerSecond = 353493
+Contexts = 1
+Memory = 9302016
+FastForwardInstructions = 0
+CommittedInstructions = 214427
+CommittedInstructionsPerCycle = 0.409
+CommittedMicroInstructions = 361586
+CommittedMicroInstructionsPerCycle = 0.6897
+BranchPredictionAccuracy = 0.9015
+SimTime = 524288.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 524288
+CyclesPerSecond = 466024
+
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 1.23 [s]
+SimEnd = MaxTime
+SimTime = 786482.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 786483
+
+[ x86 ]
+RealTime = 1.22 [s]
+Instructions = 649409
+InstructionsPerSecond = 530650
+Contexts = 1
+Memory = 9302016
+FastForwardInstructions = 0
+CommittedInstructions = 361262
+CommittedInstructionsPerCycle = 0.4594
+CommittedMicroInstructions = 609497
+CommittedMicroInstructionsPerCycle = 0.775
+BranchPredictionAccuracy = 0.9083
+SimTime = 786432.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 786432
+CyclesPerSecond = 642567
+
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 1.38 [s]
+SimEnd = MaxTime
+SimTime = 524337.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 524338
+
+[ x86 ]
+RealTime = 1.38 [s]
+Instructions = 533929
+InstructionsPerSecond = 387838
+Contexts = 1
+Memory = 9302016
+FastForwardInstructions = 0
+CommittedInstructions = 260968
+CommittedInstructionsPerCycle = 0.4978
+CommittedMicroInstructions = 440206
+CommittedMicroInstructionsPerCycle = 0.8396
+BranchPredictionAccuracy = 0.9007
+SimTime = 524288.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 524288
+CyclesPerSecond = 380813
+
