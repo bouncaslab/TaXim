@@ -1,3 +1,0 @@
-memreport = HitRatio,Sets
-x86report= Cycles,MemoryUsedMax,Commit.IPC 
-powerResults = Area,Peak Power,Runtime Dynamic,Total Leakage

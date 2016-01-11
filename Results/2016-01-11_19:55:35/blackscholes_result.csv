@@ -1,7 +1,0 @@
-Topology,Experiment,Cycles,MemoryUsedMax,Commit.IPC,Area,Peak Power,Runtime Dynamic,Total Leakage,
-4C_4L1_2L2,blackscholes,NaN,NaN,NaN,NaN,NaN,NaN,NaN
-4C_4DL1_2IL1_2DL2_1L3_BP,blackscholes,NaN,NaN,NaN,NaN,NaN,NaN,NaN
-4C_2L1_1L2,blackscholes,NaN,NaN,NaN,NaN,NaN,NaN,NaN
-4C_2L1_2L2,blackscholes,NaN,NaN,NaN,NaN,NaN,NaN,NaN
-4C_4L1_1L2_1L3,blackscholes,NaN,NaN,NaN,NaN,NaN,NaN,NaN
-2C_2DL1_2IL1_2DL2_2IL2_1L3_BP,blackscholes,NaN,NaN,NaN,NaN,NaN,NaN,NaN
