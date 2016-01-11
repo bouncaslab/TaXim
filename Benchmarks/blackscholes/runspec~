@@ -1,0 +1,3 @@
+exe   = blackscholes
+   args=$NTHREADS in_4K.txt prices.txt
+ m2s   =--max-time 0.1    

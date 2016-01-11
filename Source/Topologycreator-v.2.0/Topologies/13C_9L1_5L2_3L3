@@ -1,0 +1,269 @@
+[CacheGeometry geo-l1]
+Sets = 64
+Assoc = 8
+BlockSize = 64
+Latency = 5
+
+[CacheGeometry geo-l2]
+Sets = 512
+Assoc = 8
+BlockSize = 64
+Latency = 12
+
+[CacheGeometry geo-l3]
+Sets = 8192
+Assoc = 16
+BlockSize = 64
+Latency = 36
+
+[Module mod-l1-0]
+Type = Cache
+Geometry = geo-l1
+LowModules = mod-l2-0
+LowNetwork = net-l1-l2-0
+
+[Module mod-l1-1]
+Type = Cache
+Geometry = geo-l1
+LowModules = mod-l2-1
+LowNetwork = net-l1-l2-1
+
+[Module mod-l1-2]
+Type = Cache
+Geometry = geo-l1
+LowModules = mod-l2-2
+LowNetwork = net-l1-l2-2
+
+[Module mod-l1-3]
+Type = Cache
+Geometry = geo-l1
+LowModules = mod-l2-3
+LowNetwork = net-l1-l2-3
+
+[Module mod-l1-4]
+Type = Cache
+Geometry = geo-l1
+LowModules = mod-l2-4
+LowNetwork = net-l1-l2-4
+
+[Module mod-l1-5]
+Type = Cache
+Geometry = geo-l1
+LowModules = mod-l2-0
+LowNetwork = net-l1-l2-0
+
+[Module mod-l1-6]
+Type = Cache
+Geometry = geo-l1
+LowModules = mod-l2-1
+LowNetwork = net-l1-l2-1
+
+[Module mod-l1-7]
+Type = Cache
+Geometry = geo-l1
+LowModules = mod-l2-2
+LowNetwork = net-l1-l2-2
+
+[Module mod-l1-8]
+Type = Cache
+Geometry = geo-l1
+LowModules = mod-l2-3
+LowNetwork = net-l1-l2-3
+
+[Module mod-l2-0]
+Type = Cache
+Geometry = geo-l2
+HighNetwork = net-l1-l2-0
+LowModules = mod-l3-0
+LowNetwork = net-l2-l3-0
+
+[Module mod-l2-1]
+Type = Cache
+Geometry = geo-l2
+HighNetwork = net-l1-l2-1
+LowModules = mod-l3-1
+LowNetwork = net-l2-l3-1
+
+[Module mod-l2-2]
+Type = Cache
+Geometry = geo-l2
+HighNetwork = net-l1-l2-2
+LowModules = mod-l3-2
+LowNetwork = net-l2-l3-2
+
+[Module mod-l2-3]
+Type = Cache
+Geometry = geo-l2
+HighNetwork = net-l1-l2-3
+LowModules = mod-l3-0
+LowNetwork = net-l2-l3-0
+
+[Module mod-l2-4]
+Type = Cache
+Geometry = geo-l2
+HighNetwork = net-l1-l2-4
+LowModules = mod-l3-1
+LowNetwork = net-l2-l3-1
+
+[Module mod-l3-0]
+Type = Cache
+Geometry = geo-l3
+HighNetwork = net-l2-l3-0
+LowNetwork = net-l3-mm
+LowModules = mod-mm
+
+[Module mod-l3-1]
+Type = Cache
+Geometry = geo-l3
+HighNetwork = net-l2-l3-1
+LowNetwork = net-l3-mm
+LowModules = mod-mm
+
+[Module mod-l3-2]
+Type = Cache
+Geometry = geo-l3
+HighNetwork = net-l2-l3-2
+LowNetwork = net-l3-mm
+LowModules = mod-mm
+
+[Module mod-mm]
+Type = MainMemory
+BlockSize = 256
+Latency = 93
+HighNetwork = net-l3-mm
+
+[Network net-l3-mm]
+DefaultInputBufferSize = 1024
+DefaultOutputBufferSize = 1024
+DefaultBandwidth = 4096
+
+[Network net-l2-l3-0]
+DefaultInputBufferSize = 1024
+DefaultOutputBufferSize = 1024
+DefaultBandwidth = 2048
+
+[Network net-l2-l3-1]
+DefaultInputBufferSize = 1024
+DefaultOutputBufferSize = 1024
+DefaultBandwidth = 2048
+
+[Network net-l2-l3-2]
+DefaultInputBufferSize = 1024
+DefaultOutputBufferSize = 1024
+DefaultBandwidth = 2048
+
+[Network net-l1-l2-0]
+DefaultInputBufferSize = 1024 
+DefaultOutputBufferSize = 1024
+DefaultBandwidth = 1024
+
+[Network net-l1-l2-1]
+DefaultInputBufferSize = 1024 
+DefaultOutputBufferSize = 1024
+DefaultBandwidth = 1024
+
+[Network net-l1-l2-2]
+DefaultInputBufferSize = 1024 
+DefaultOutputBufferSize = 1024
+DefaultBandwidth = 1024
+
+[Network net-l1-l2-3]
+DefaultInputBufferSize = 1024 
+DefaultOutputBufferSize = 1024
+DefaultBandwidth = 1024
+
+[Network net-l1-l2-4]
+DefaultInputBufferSize = 1024 
+DefaultOutputBufferSize = 1024
+DefaultBandwidth = 1024
+
+[Entry core-0]
+Arch = x86
+Core = 0
+Thread = 0
+DataModule = mod-l1-0
+InstModule = mod-l1-0
+
+[Entry core-1]
+Arch = x86
+Core = 1
+Thread = 0
+DataModule = mod-l1-1
+InstModule = mod-l1-1
+
+[Entry core-2]
+Arch = x86
+Core = 2
+Thread = 0
+DataModule = mod-l1-2
+InstModule = mod-l1-2
+
+[Entry core-3]
+Arch = x86
+Core = 3
+Thread = 0
+DataModule = mod-l1-3
+InstModule = mod-l1-3
+
+[Entry core-4]
+Arch = x86
+Core = 4
+Thread = 0
+DataModule = mod-l1-4
+InstModule = mod-l1-4
+
+[Entry core-5]
+Arch = x86
+Core = 5
+Thread = 0
+DataModule = mod-l1-5
+InstModule = mod-l1-5
+
+[Entry core-6]
+Arch = x86
+Core = 6
+Thread = 0
+DataModule = mod-l1-6
+InstModule = mod-l1-6
+
+[Entry core-7]
+Arch = x86
+Core = 7
+Thread = 0
+DataModule = mod-l1-7
+InstModule = mod-l1-7
+
+[Entry core-8]
+Arch = x86
+Core = 8
+Thread = 0
+DataModule = mod-l1-8
+InstModule = mod-l1-8
+
+[Entry core-9]
+Arch = x86
+Core = 9
+Thread = 0
+DataModule = mod-l1-0
+InstModule = mod-l1-0
+
+[Entry core-10]
+Arch = x86
+Core = 10
+Thread = 0
+DataModule = mod-l1-1
+InstModule = mod-l1-1
+
+[Entry core-11]
+Arch = x86
+Core = 11
+Thread = 0
+DataModule = mod-l1-2
+InstModule = mod-l1-2
+
+[Entry core-12]
+Arch = x86
+Core = 12
+Thread = 0
+DataModule = mod-l1-3
+InstModule = mod-l1-3

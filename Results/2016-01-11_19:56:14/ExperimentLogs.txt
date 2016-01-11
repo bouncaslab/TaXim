@@ -1,0 +1,492 @@
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: 9QFBE
+
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: 9QFyX
+
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: 9QFxJ
+
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: 9QFFj
+
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: 9QFQc
+
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: 9QFFR
+
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: 9QHXY
+
+PARSEC Benchmark Suite Version 2.1
+PARSEC Benchmark Suite Version 2.1
+PARSEC Benchmark Suite Version 2.1
+PARSEC Benchmark Suite Version 2.1
+Threadcount: 2
+PARSEC Benchmark Suite Version 2.1
+15000 swaps per temperature step
+PARSEC Benchmark Suite Version 2.1
+start temperature: 2000
+PARSEC Benchmark Suite Version 2.1
+netlist filename: /home/alp/Downloads/TaXim/Benchmarks/canneal/200000.nets
+number of temperature steps: 64
+Threadcount: 4
+15000 swaps per temperature step
+start temperature: 2000
+Threadcount: 4
+Threadcount: 4
+netlist filename: /home/alp/Downloads/TaXim/Benchmarks/canneal/200000.nets
+15000 swaps per temperature step
+15000 swaps per temperature step
+Threadcount: 4
+number of temperature steps: 64
+start temperature: 2000
+start temperature: 2000
+Threadcount: 4
+netlist filename: /home/alp/Downloads/TaXim/Benchmarks/canneal/200000.nets
+15000 swaps per temperature step
+netlist filename: /home/alp/Downloads/TaXim/Benchmarks/canneal/200000.nets
+15000 swaps per temperature step
+start temperature: 2000
+number of temperature steps: 64
+start temperature: 2000
+number of temperature steps: 64
+netlist filename: /home/alp/Downloads/TaXim/Benchmarks/canneal/200000.nets
+number of temperature steps: 64
+netlist filename: /home/alp/Downloads/TaXim/Benchmarks/canneal/200000.nets
+number of temperature steps: 64
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 1.12 [s]
+SimEnd = MaxTime
+SimTime = 655363.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 655364
+
+[ x86 ]
+RealTime = 1.12 [s]
+Instructions = 536652
+InstructionsPerSecond = 478974
+Contexts = 1
+Memory = 9302016
+FastForwardInstructions = 0
+CommittedInstructions = 294234
+CommittedInstructionsPerCycle = 0.449
+CommittedMicroInstructions = 496397
+CommittedMicroInstructionsPerCycle = 0.7574
+BranchPredictionAccuracy = 0.9051
+SimTime = 655360.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 655360
+CyclesPerSecond = 584875
+
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 5.00 [s]
+SimEnd = MaxTime
+SimTime = 2097165.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 2097166
+
+[ x86 ]
+RealTime = 5.00 [s]
+Instructions = 1425983
+InstructionsPerSecond = 285151
+Contexts = 1
+Memory = 19378176
+FastForwardInstructions = 0
+CommittedInstructions = 891657
+CommittedInstructionsPerCycle = 0.4252
+CommittedMicroInstructions = 1563840
+CommittedMicroInstructionsPerCycle = 0.7457
+BranchPredictionAccuracy = 0.9074
+SimTime = 2097152.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 2097152
+CyclesPerSecond = 419363
+
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 5.03 [s]
+SimEnd = MaxTime
+SimTime = 2228232.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 2228233
+
+[ x86 ]
+RealTime = 5.02 [s]
+Instructions = 1667789
+InstructionsPerSecond = 332189
+Contexts = 1
+Memory = 19378176
+FastForwardInstructions = 0
+CommittedInstructions = 1043157
+CommittedInstructionsPerCycle = 0.4682
+CommittedMicroInstructions = 1829507
+CommittedMicroInstructionsPerCycle = 0.8211
+BranchPredictionAccuracy = 0.9075
+SimTime = 2228224.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 2228224
+CyclesPerSecond = 443808
+
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 5.04 [s]
+SimEnd = MaxTime
+SimTime = 2097167.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 2097168
+
+[ x86 ]
+RealTime = 5.04 [s]
+Instructions = 1425983
+InstructionsPerSecond = 283134
+Contexts = 1
+Memory = 19378176
+FastForwardInstructions = 0
+CommittedInstructions = 891657
+CommittedInstructionsPerCycle = 0.4252
+CommittedMicroInstructions = 1563840
+CommittedMicroInstructionsPerCycle = 0.7457
+BranchPredictionAccuracy = 0.9074
+SimTime = 2097152.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 2097152
+CyclesPerSecond = 416389
+
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 5.09 [s]
+SimEnd = MaxTime
+SimTime = 2228234.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 2228235
+
+[ x86 ]
+RealTime = 5.08 [s]
+Instructions = 1593979
+InstructionsPerSecond = 313561
+Contexts = 1
+Memory = 19378176
+FastForwardInstructions = 0
+CommittedInstructions = 996233
+CommittedInstructionsPerCycle = 0.4471
+CommittedMicroInstructions = 1747219
+CommittedMicroInstructionsPerCycle = 0.7841
+BranchPredictionAccuracy = 0.9074
+SimTime = 2228224.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 2228224
+CyclesPerSecond = 438327
+
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 5.22 [s]
+SimEnd = MaxTime
+SimTime = 2097169.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 2097170
+
+[ x86 ]
+RealTime = 5.21 [s]
+Instructions = 1425983
+InstructionsPerSecond = 273777
+Contexts = 1
+Memory = 19378176
+FastForwardInstructions = 0
+CommittedInstructions = 891657
+CommittedInstructionsPerCycle = 0.4252
+CommittedMicroInstructions = 1563840
+CommittedMicroInstructionsPerCycle = 0.7457
+BranchPredictionAccuracy = 0.9074
+SimTime = 2097152.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 2097152
+CyclesPerSecond = 402636
+
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 5.32 [s]
+SimEnd = MaxTime
+SimTime = 2359305.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 2359306
+
+[ x86 ]
+RealTime = 5.32 [s]
+Instructions = 1487170
+InstructionsPerSecond = 279459
+Contexts = 1
+Memory = 19378176
+FastForwardInstructions = 0
+CommittedInstructions = 930849
+CommittedInstructionsPerCycle = 0.3945
+CommittedMicroInstructions = 1632568
+CommittedMicroInstructionsPerCycle = 0.692
+BranchPredictionAccuracy = 0.9074
+SimTime = 2359296.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 2359296
+CyclesPerSecond = 443335
+
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: DyURv
+
+PARSEC Benchmark Suite Version 2.1
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 1.19 [s]
+SimEnd = MaxTime
+SimTime = 524322.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 524323
+
+[ x86 ]
+RealTime = 1.19 [s]
+Instructions = 421345
+InstructionsPerSecond = 354260
+Contexts = 1
+Memory = 9302016
+FastForwardInstructions = 0
+CommittedInstructions = 228330
+CommittedInstructionsPerCycle = 0.4355
+CommittedMicroInstructions = 385097
+CommittedMicroInstructionsPerCycle = 0.7345
+BranchPredictionAccuracy = 0.9027
+SimTime = 524288.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 524288
+CyclesPerSecond = 440779
+
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: XAChd
+
+PARSEC Benchmark Suite Version 2.1
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 1.22 [s]
+SimEnd = MaxTime
+SimTime = 524309.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 524310
+
+[ x86 ]
+RealTime = 1.22 [s]
+Instructions = 397491
+InstructionsPerSecond = 325430
+Contexts = 1
+Memory = 9302016
+FastForwardInstructions = 0
+CommittedInstructions = 214272
+CommittedInstructionsPerCycle = 0.4087
+CommittedMicroInstructions = 361324
+CommittedMicroInstructionsPerCycle = 0.6892
+BranchPredictionAccuracy = 0.9015
+SimTime = 524288.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 524288
+CyclesPerSecond = 429208
+
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: bW3p0
+
+PARSEC Benchmark Suite Version 2.1
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: izTmT
+
+PARSEC Benchmark Suite Version 2.1
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 1.43 [s]
+SimEnd = MaxTime
+SimTime = 393231.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 393232
+
+[ x86 ]
+RealTime = 1.42 [s]
+Instructions = 389765
+InstructionsPerSecond = 273534
+Contexts = 1
+Memory = 9302016
+FastForwardInstructions = 0
+CommittedInstructions = 187266
+CommittedInstructionsPerCycle = 0.4762
+CommittedMicroInstructions = 315721
+CommittedMicroInstructionsPerCycle = 0.8029
+BranchPredictionAccuracy = 0.8963
+SimTime = 393216.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 393216
+CyclesPerSecond = 275939
+
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 1.20 [s]
+SimEnd = MaxTime
+SimTime = 393263.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 393264
+
+[ x86 ]
+RealTime = 1.19 [s]
+Instructions = 378727
+InstructionsPerSecond = 317642
+Contexts = 1
+Memory = 9302016
+FastForwardInstructions = 0
+CommittedInstructions = 181678
+CommittedInstructionsPerCycle = 0.462
+CommittedMicroInstructions = 306312
+CommittedMicroInstructionsPerCycle = 0.779
+BranchPredictionAccuracy = 0.8959
+SimTime = 393216.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 393216
+CyclesPerSecond = 329769
+
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: WGFoe
+
+PARSEC Benchmark Suite Version 2.1
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 1.49 [s]
+SimEnd = MaxTime
+SimTime = 393235.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 393236
+
+[ x86 ]
+RealTime = 1.49 [s]
+Instructions = 306463
+InstructionsPerSecond = 205301
+Contexts = 1
+Memory = 9302016
+FastForwardInstructions = 0
+CommittedInstructions = 161476
+CommittedInstructionsPerCycle = 0.4107
+CommittedMicroInstructions = 272248
+CommittedMicroInstructionsPerCycle = 0.6924
+BranchPredictionAccuracy = 0.8972
+SimTime = 393216.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 393216
+CyclesPerSecond = 263350
+
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: hFn0C
+
+PARSEC Benchmark Suite Version 2.1
+yuv4mpeg: 640x360@25/1fps, 0:0
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: omhDA
+
+PARSEC Benchmark Suite Version 2.1
+yuv4mpeg: 640x360@25/1fps, 0:0
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: 1yjgt
+
+PARSEC Benchmark Suite Version 2.1
+yuv4mpeg: 640x360@25/1fps, 0:0
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: MkXBF
+
+PARSEC Benchmark Suite Version 2.1
+yuv4mpeg: 640x360@25/1fps, 0:0
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: ZE0Az
+
+PARSEC Benchmark Suite Version 2.1
+yuv4mpeg: 640x360@25/1fps, 0:0
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: 7lOvm
+
+PARSEC Benchmark Suite Version 2.1
+yuv4mpeg: 640x360@25/1fps, 0:0

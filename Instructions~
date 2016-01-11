@@ -1,0 +1,112 @@
+----------------
+Welcome to TaXim
+----------------
+
+TaXim is an open source automation toolset that allows the designer to easily create topologies, execute simulations, conduct power tests, and extract what is relevant. It provides 3 separate tools to easily customize most relevant metrics, run experiments, and format the results in csv format. These tools are the TopologyCreator, which constructs memory configurations compatible with Multi2Sim, the Experimenter, which runs Multi2Sim and McPAT, and the Extractor, which deploys chosen metrics in .csv format.
+
+
+------------
+Requirements
+------------
+
+Java 8, Python 2.7, Multi2Sim, McPAT, an operating system compatible with Multi2Sim and McPAT
+
+
+---------------------
+Setting up the System 
+---------------------
+
+From this point on, $path will be referring to user specific directories, $exp will be referring to an arbitrary experiment, $date will be referring to the starting time of the toolset, TF will be referring to the TaXim Folder.
+
+
+1- Assigning Paths
+------------------
+The tool requires the paths for Multi2Sim and McPAT in order to run the simulations; hence, the base paths must be written to "Paths" in TF using the following format:
+
+m2s = $path/multi2sim-4.2/bin/m2s
+McPAT = $path/mcpat/mcpat
+
+
+2- Creating a Topology List
+---------------------------
+A topology list is composed of string representations, which are labels of memory configurations. When TopologyCreator recognizes a topology representation, it spreads the connections between defined memory units as evenly as possible. These strings have to be written under one another, separated by line breaks, as shown below. Use the file "TopologyList" to write architectures that are to be simulated. For further information about the naming convention, refer to: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7363611&filter%3DAND%28p_IS_Number%3A7363598%29.
+
+2C_1L1_1L2
+3C_3DL1_1IL1_1DL2_1IL2_1L3
+4C_4DL1_2IL1_2DL2_BP
+8C_4DL1_4IL1_2DL2_2IL2_BP
+
+
+3- Editing Run Specifications
+-----------------------------
+Experiment properties have to be adjusted for each experiment by altering "runspec" found in $path/TaXim/Benchmarks/$exp/ . These properties are divided into three groups: the exe file's name, benchmark specific instructions, and Multi2Sim options. The exe must be present at $path/TaXim/Benchmarks/$exp/ and only its name is required. Refer to the publisher's specifications for specific instructions; if thread count is required, you can substitute "$NTHREADS" for TaXim to automatically fill the thread count. For input and output files, only write their names and include them inside $path/TaXim/Benchmarks/$exp/ . An example for the blackscholes application found in Princeton's PARSEC suite is given below.
+
+exe = blackscholes
+args = $NTHREADS in_4K.txt prices.txt
+m2s = --max-time 1
+
+
+4- Choosing Experiments
+-----------------------
+To avoid moving files, TaXim requires the user to enter which benchmarks are to be tested into the "Experiments" file found in TF. Names of the experiments are to be written into this file using line breaks, as shown below.
+
+blackscholes
+canneal
+x264
+
+
+5- Picking a processor
+----------------------
+To change the type of the processor, replace the old processor found in $path/TaXim/Power/ 
+and rename the new processor file to "Processor.xml".
+
+
+6- Determining Metrics
+----------------------
+Not all results are interesting for a user. Multi2Sim and McPAT offer a great range of results; however, extracting and formatting these results are too time-consuming manually. Thus TaXim provides a quick way for the user to receive these results. The "OutputMetrics" file found in TF has to be formatted by determining the name of the report TaXim has to read from, and separating each desired value by a comma, as shown below.
+
+memreport = HitRatio
+x86report = Cycles,MemoryUsedMax,Time
+powerResults = Peak Power,Area
+
+
+7- Pre-check Simulation
+-----------------------
+TaXim also integrates Multi2Sim's quick simulation capabilities. To make sure the experiments are working properly, run "python path$/TaXim/Precheck.py" after finishing the previous steps. The pre-check simulation is a fast way to check the output files of experiments to confirm everything is functioning properly. This method does not take any arguments or memory configurations, as no detailed simulation is conducted.
+
+8- Running the Toolset
+----------------------
+After previous steps have been completed, TaXim can begin the simulation of various applications. To start TaXim in default mode, open up Terminal and use the command "python path$/TaXim/Experimenter.py". To change the count of simultaneous experiments, simply enter the desired integer, for example 3, after the command, as shown below:
+
+python path$/TaXim/Experimenter.py 3
+
+Note that TaXim prevents more than double the core count amount of concurring simulations, and we suggest the user to run no more simulations than the thread count of the computer.
+
+9- Locating Results
+-------------------
+The start time of the current experiment is recorded and used to name the set of experiments that are conducted. This set can be found in the "Results" folder in TD. The toolset provides separate .csv files that are built using the values extracted from x86report and powerResults. An aggragated results file is also provided for the convienence of the user. Because memreport holds information specific for each module pertaining to a memory configuration, a table format of this information is very hard to construct. That is why metrics from memreport are reported under each topology file found within the experiment result directories.
+
+
+10- Using the log files
+----------------------
+"ExperimentLogs.txt" found in $path/TaXim/Results/$date holds information relating to Multi2Sim, which provides valuable feedback, in the case the user has entered faulty metrics.
+
+
+11- Misc.
+---------
+It is also possible to use the jar files without depending on the python script. To create topologies without running the experiments, use the command:
+
+java -jar $path/TaXim/TopologyCreator-v.2.4.jar
+
+
+To extract different results from completed experiments, change the OutputMetrics file found in TF, and afterwards run the command:
+
+java -jar $path/TaXim/Extractor.jar myResult
+
+
+You can use the TopologyNamer to create fast topology lists. Edit the file name found on the top of the file and change the metrics for the type of topology you want to have created.
+
+python $path/TaXim/TopologyNamer.py
+
+
+Thank you for using TaXim. :)

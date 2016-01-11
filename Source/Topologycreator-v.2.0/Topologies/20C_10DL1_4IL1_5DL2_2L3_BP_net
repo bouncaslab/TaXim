@@ -1,0 +1,208 @@
+
+[Network.net0]
+DefaultInputBufferSize = 512
+DefaultOutputBufferSize = 512
+DefaultBandwidth = 8
+
+[Network.net1]
+DefaultInputBufferSize = 512
+DefaultOutputBufferSize = 512
+DefaultBandwidth = 8
+
+[Network.net0.Node.sw0]
+Type = Switch
+
+[Network.net1.Node.sw2]
+Type = Switch
+
+[Network.net0.Node.sw4]
+Type = Switch
+
+[Network.net1.Node.sw6]
+Type = Switch
+
+[Network.net0.Node.sw8]
+Type = Switch
+
+[Network.net0.Node.sw00]
+Type = Switch
+
+[Network.net1.Node.sw02]
+Type = Switch
+
+[Network.net0.Node.sw1]
+Type = Switch
+
+[Network.net1.Node.sw3]
+Type = Switch
+
+[Network.net0.Node.sw5]
+Type = Switch
+
+[Network.net1.Node.sw7]
+Type = Switch
+
+[Network.net0.Node.sw01]
+Type = Switch
+
+[Network.net1.Node.sw03]
+Type = Switch
+
+[Network.net0.Node.sw18]
+Type = Switch
+
+[Network.net1.Node.sw19]
+Type = Switch
+
+[Network.net0.Node.n1]
+Type = EndNode
+
+[Network.net1.Node.n3]
+Type = EndNode
+
+[Network.net0.Node.n5]
+Type = EndNode
+
+[Network.net1.Node.n7]
+Type = EndNode
+
+[Network.net0.Node.n0]
+Type = EndNode
+
+[Network.net1.Node.n2]
+Type = EndNode
+
+[Network.net0.Node.n4]
+Type = EndNode
+
+[Network.net1.Node.n6]
+Type = EndNode
+
+[Network.net0.Node.n8]
+Type = EndNode
+
+[Network.net0.Node.n18]
+Type = EndNode
+
+[Network.net1.Node.n19]
+Type = EndNode
+
+[Network.net0.Link.sw0-n0]
+Source = sw0
+Dest = n0
+Type = Bidirectional
+
+[Network.net1.Link.sw2-n2]
+Source = sw2
+Dest = n2
+Type = Bidirectional
+
+[Network.net0.Link.sw4-n4]
+Source = sw4
+Dest = n4
+Type = Bidirectional
+
+[Network.net1.Link.sw6-n6]
+Source = sw6
+Dest = n6
+Type = Bidirectional
+
+[Network.net0.Link.sw8-n8]
+Source = sw8
+Dest = n8
+Type = Bidirectional
+
+[Network.net0.Link.sw1-n1]
+Source = sw1
+Dest = n1
+Type = Bidirectional
+
+[Network.net1.Link.sw3-n3]
+Source = sw3
+Dest = n3
+Type = Bidirectional
+
+[Network.net0.Link.sw5-n5]
+Source = sw5
+Dest = n5
+Type = Bidirectional
+
+[Network.net1.Link.sw7-n7]
+Source = sw7
+Dest = n7
+Type = Bidirectional
+
+[Network.net0.Link.sw18-n18]
+Source = sw18
+Dest = n18
+Type = Bidirectional
+
+[Network.net1.Link.sw19-n19]
+Source = sw19
+Dest = n19
+Type = Bidirectional
+
+[Network.net0.Link.sw1-sw01]
+Source = sw1
+Dest = sw01
+Type = Bidirectional
+
+[Network.net0.Link.sw5-sw01]
+Source = sw5
+Dest = sw01
+Type = Bidirectional
+
+[Network.net0.Link.sw01-sw18]
+Source = sw01
+Dest = sw18
+Type = Bidirectional
+
+[Network.net1.Link.sw3-sw03]
+Source = sw3
+Dest = sw03
+Type = Bidirectional
+
+[Network.net1.Link.sw7-sw03]
+Source = sw7
+Dest = sw03
+Type = Bidirectional
+
+[Network.net1.Link.sw03-sw19]
+Source = sw03
+Dest = sw19
+Type = Bidirectional
+
+[Network.net0.Link.sw0-sw00]
+Source = sw0
+Dest = sw00
+Type = Bidirectional
+
+[Network.net0.Link.sw4-sw00]
+Source = sw4
+Dest = sw00
+Type = Bidirectional
+
+[Network.net0.Link.sw8-sw00]
+Source = sw4
+Dest = sw00
+Type = Bidirectional
+
+[Network.net0.Link.sw00-sw18]
+Source = sw00
+Dest = sw18
+Type = Bidirectional
+
+[Network.net1.Link.sw2-sw02]
+Source = sw2
+Dest = sw02
+Type = Bidirectional
+
+[Network.net1.Link.sw6-sw02]
+Source = sw6
+Dest = sw02
+Type = Bidirectional
+
+[Network.net1.Link.sw02-sw19]
+Source = sw02
+Dest = sw19
+Type = Bidirectional
